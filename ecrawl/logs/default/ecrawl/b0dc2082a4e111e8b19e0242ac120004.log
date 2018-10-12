@@ -1,0 +1,90 @@
+2018-08-21 01:29:51 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: ecrawl)
+2018-08-21 01:29:51 [scrapy.utils.log] INFO: Versions: lxml 4.2.4.0, libxml2 2.9.8, cssselect 1.0.3, parsel 1.5.0, w3lib 1.19.0, Twisted 18.7.0, Python 3.6.6 (default, Jul 17 2018, 11:12:33) - [GCC 6.3.0 20170516], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Linux-4.15.0-32-generic-x86_64-with-debian-9.5
+2018-08-21 01:29:51 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'ecrawl', 'LOG_FILE': 'logs/default/ecrawl/b0dc2082a4e111e8b19e0242ac120004.log', 'NEWSPIDER_MODULE': 'ecrawl.spiders', 'SPIDER_MODULES': ['ecrawl.spiders']}
+2018-08-21 01:29:51 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2018-08-21 01:29:52 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-08-21 01:29:52 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-08-21 01:29:52 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-08-21 01:29:52 [scrapy.core.engine] INFO: Spider opened
+2018-08-21 01:29:52 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-08-21 01:29:52 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-08-21 01:29:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Aloe%20Vera%20SPF%2030&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Acnedote%20Pimple%20Patches%204%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Acnedote%20Pimple%20Patches&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Aloe%20Vera%20SPF%2030%202%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Acnedote%20Pimple%20Patches%202%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Aloe%20Vera%20SPF%2030%203%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Acnedote%20Pimple%20Patches%203%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:53 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://www.ebay.com/itm/Alba-Botanica-Acnedote-Pimple-Patches-40-CT/123317509079?epid=25015460272&hash=item1cb64bdbd7:g:0BUAAOSwj~Rbdv0-:sc:USPSFirstClass!94127!US!-1> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2018-08-21 01:29:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Coconut%20Dry%20Tanning%20Oil&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Coconut%20Milk%20Leave%20In%20Conditioner&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Coconut%20Dry%20Tanning%20Oil%202%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Aloe%20Vera%20SPF%2030%204%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Coconut%20Dry%20Tanning%20Oil%203%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Coconut%20Dry%20Tanning%20Oil%204%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Coconut%20Milk%20Leave%20In%20Conditioner%202%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Coconut%20Milk%20Leave%20In%20Conditioner%204%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/itm/Alba-Botanica-Acnedote-Pimple-Patches-40-CT/123317509079?epid=25015460272&hash=item1cb64bdbd7:g:0BUAAOSwj~Rbdv0-:sc:USPSFirstClass!94127!US!-1> (referer: https://www.ebay.com/sch/?_nkw=Acnedote%20Pimple%20Patches%204%20Packs&LH_FS=1&_sop=12)
+2018-08-21 01:29:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Coconut%20Milk%20Leave%20In%20Conditioner%203%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Coffee%20&%20Espresso%20Scrub%202%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/itm/Alba-Botanica-Hawaiian-Sunscreen-Coconut-SPF-50-Spray-or-Aloe-Vera-SPF-30-Lotion/232878580442?epid=2255709112&hash=item3638a522da%3Am%3AmyyDOFegidHSwzT4Cm79oUw&var=532412696292> (referer: https://www.ebay.com/sch/?_nkw=Aloe%20Vera%20SPF%2030&LH_FS=1&_sop=12)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Coffee%20&%20Espresso%20Scrub&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/itm/Alba-Botanica-Hawaiian-Sunscreen-Soothing-Aloe-Vera-SPF-30-4-oz-Pack-of-3/332169085004?hash=item4d56d2004c:g:Cm4AAOSwDmBY3Q3g> (referer: https://www.ebay.com/sch/?_nkw=Aloe%20Vera%20SPF%2030%203%20Packs&LH_FS=1&_sop=12)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Coffee%20&%20Espresso%20Scrub%203%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/itm/Biotique-Bio-Aloe-Vera-SPF-30-Face-And-Body-Sun-Cream-50-gm-Pack-of-2/323391633435?hash=item4b4ba4b81b:g:~XAAAOSwL7tbGn8r> (referer: https://www.ebay.com/sch/?_nkw=Aloe%20Vera%20SPF%2030%202%20Packs&LH_FS=1&_sop=12)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/sch/?_nkw=Coffee%20&%20Espresso%20Scrub%204%20Packs&LH_FS=1&_sop=12> (referer: None)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/itm/African-Pride-Moisture-Miracle-Coconut-Milk-Honey-Leave-in-Conditioner-8oz/332640889430?epid=26020198198&hash=item4d72f12a56:g:908AAOSwCeRa7MSb> (referer: https://www.ebay.com/sch/?_nkw=Coconut%20Milk%20Leave%20In%20Conditioner&LH_FS=1&_sop=12)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/itm/Alba-Botanica-Hawaiian-Aloe-Vera-Natural-Sunblock-Spf-30-4-Fl-Oz-Bulk-Pk-Lot/362374149774?hash=item545f2eb68e%3Am%3AmdxptLIbnEDegGOkpnGPbiQ&var=631564956841> (referer: https://www.ebay.com/sch/?_nkw=Aloe%20Vera%20SPF%2030%204%20Packs&LH_FS=1&_sop=12)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/itm/Alba-Tanning-Oils-Botanica-Natural-Hawaiian-Dry-Oil-Sunscren-Coconut-SPF-15-Oz/223090012451?epid=1612806478&hash=item33f1337123:g:r~IAAOSwKLxbZzQz> (referer: https://www.ebay.com/sch/?_nkw=Coconut%20Dry%20Tanning%20Oil%202%20Packs&LH_FS=1&_sop=12)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/itm/James-Read-Tan-Coconut-Dry-Oil-Tan-100-ml-FREE-SHIP/323401244269?epid=28021058090&hash=item4b4c375e6d:g:OGYAAOSwP65bdyyR> (referer: https://www.ebay.com/sch/?_nkw=Coconut%20Dry%20Tanning%20Oil&LH_FS=1&_sop=12)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/itm/Palmers-Coconut-Oil-Formula-Hair-Milk-Smoothie-8-50-oz-Pack-of-4/232284467192?epid=710132846&hash=item36153baff8:g:GUsAAOSw32lY2N1y> (referer: https://www.ebay.com/sch/?_nkw=Coconut%20Milk%20Leave%20In%20Conditioner%204%20Packs&LH_FS=1&_sop=12)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/itm/Palmers-Coconut-Oil-Formula-Hair-Milk-smoothie-8-5-Ounce-Pack-of-2/202374266545?epid=710132846&hash=item2f1e723eb1:g:kvEAAOSwWLlbUK~t> (referer: https://www.ebay.com/sch/?_nkw=Coconut%20Milk%20Leave%20In%20Conditioner%202%20Packs&LH_FS=1&_sop=12)
+2018-08-21 01:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/itm/Taliah-Waajid-Bamboo-Coconut-Milk-Strengthening-Leave-in-Cond-8-oz-3-PACK/253671269988?epid=2223828000&hash=item3b0ffc6664:g:WuwAAOSwvmNbFtXU> (referer: https://www.ebay.com/sch/?_nkw=Coconut%20Milk%20Leave%20In%20Conditioner%203%20Packs&LH_FS=1&_sop=12)
+2018-08-21 01:29:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/itm/Mocha-Java-Organic-Coffee-Beans-Fresh-Roasted-Whole-Bean-Ground-2-1Lb-bags/110963542187?hash=item19d5f148ab> (referer: https://www.ebay.com/sch/?_nkw=Coffee%20&%20Espresso%20Scrub%202%20Packs&LH_FS=1&_sop=12)
+2018-08-21 01:29:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.ebay.com/itm/100-Jamaican-Blue-Mountain-Coffee-Beans-Whole-or-Ground-Fresh-Roasted-2-Pounds/112357749609?epid=1850449287&hash=item1a290b3369:g:HdoAAOSwp5JWYzeo:sc:USPSPriorityMailPaddedFlatRateEnvelope!94127!US!-1> (referer: https://www.ebay.com/sch/?_nkw=Coffee%20&%20Espresso%20Scrub&LH_FS=1&_sop=12)
+2018-08-21 01:29:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://offer.ebay.com/ws/eBayISAPI.dll?ViewBidsLogin&item=112357749609&rt=nc&_trksid=p2047675.l2564> (referer: https://www.ebay.com/itm/100-Jamaican-Blue-Mountain-Coffee-Beans-Whole-or-Ground-Fresh-Roasted-2-Pounds/112357749609?epid=1850449287&hash=item1a290b3369:g:HdoAAOSwp5JWYzeo:sc:USPSPriorityMailPaddedFlatRateEnvelope!94127!US!-1)
+2018-08-21 01:29:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://offer.ebay.com/ws/eBayISAPI.dll?ViewBidsLogin&item=110963542187&rt=nc&_trksid=p2047675.l2564> (referer: https://www.ebay.com/itm/Mocha-Java-Organic-Coffee-Beans-Fresh-Roasted-Whole-Bean-Ground-2-1Lb-bags/110963542187?hash=item19d5f148ab)
+2018-08-21 01:30:00 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-08-21 01:30:00 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 18937,
+ 'downloader/request_count': 35,
+ 'downloader/request_method_count/GET': 35,
+ 'downloader/response_bytes': 1836832,
+ 'downloader/response_count': 35,
+ 'downloader/response_status_count/200': 35,
+ 'dupefilter/filtered': 7,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 8, 21, 1, 30, 0, 155278),
+ 'log_count/DEBUG': 37,
+ 'log_count/INFO': 7,
+ 'memusage/max': 70361088,
+ 'memusage/startup': 70361088,
+ 'request_depth_max': 2,
+ 'response_received_count': 35,
+ 'scheduler/dequeued': 35,
+ 'scheduler/dequeued/memory': 35,
+ 'scheduler/enqueued': 35,
+ 'scheduler/enqueued/memory': 35,
+ 'start_time': datetime.datetime(2018, 8, 21, 1, 29, 52, 129565)}
+2018-08-21 01:30:00 [scrapy.core.engine] INFO: Spider closed (finished)

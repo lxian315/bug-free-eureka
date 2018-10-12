@@ -1,0 +1,15 @@
+{% extends 'admin/base.html' %}
+
+{% load static %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('eBay site admin') }}{% endblock %}
+
+{% block branding %}
+<h1 id="logo">
+    <a href="{% url 'admin:index' %}">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/EBay_logo.svg" height="40px" />
+    </a>
+</h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}

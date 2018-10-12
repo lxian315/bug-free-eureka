@@ -1,0 +1,3 @@
+#!/bin/bash
+0 1 * * * root cd /code && /usr/local/bin/scrapy crawl ecrawl >> /var/log/cron.log 2>&1
+#
