@@ -16,8 +16,9 @@ docker-compose up --build -d
 
 * After you successfully build your images, you'll need to go inside the Django container to sync with the database. You can do this with the following commands
 
+
 ```sh
-docker exec -it myenv_web_1 bash
+docker exec -it <<container>> bash  #Here container is bug-free-eureka-master_web_1
 python manage.py makemigrations
 python manage.py migrate
 ```
